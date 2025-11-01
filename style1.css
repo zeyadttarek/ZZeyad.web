@@ -1,0 +1,329 @@
+*{font-family: "poppins",sans-serif; margin: 0; padding: 0; box-sizing: border-box;
+scroll-behavior: smooth;}
+
+
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+    font-size: 1.8em;
+    transition: 1s ease;
+
+}
+.logo:hover{
+        color: lightblue;
+        transition: 0.5s ease;
+}
+
+
+.nave a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500 bold;
+    padding-left: 30px;
+    transition: 0.8s ease;
+    
+    
+
+
+}
+
+.nave a:hover{
+    color: lightblue;
+    transition: 0.3s ease;
+   
+
+}
+
+section{
+    padding: 105px 183px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(gogo.png);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.toto{
+    padding-right: 00px;
+}
+
+.main h2{
+    color:rgb(255, 255, 255);
+    font-size: 1.8em;
+    font-weight: 500;
+
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 12px;
+    color: rgb(0, 26, 255);
+    font-size: 3em;
+    font-weight: 600;
+    font-style: oblique;
+}
+.main h3{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-boton{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(0, 26, 255);
+    font-size: 1.3em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1.0375em 2.387em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 1s ease;
+}
+
+.main-boton:hover{
+    background-color:darkblue;
+    transform: scale(1.1, 1.1);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 102, 255);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-style: oblique;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color:white ;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    transition: 1s ease;
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.icon{
+    color: blue;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(0, 102, 255);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    
+}
+
+.info{
+    text-align: center;
+    
+}
+
+
+.work{
+    background-color: rgb(255, 255, 255);
+}
+
+.line{
+    border-width: 4px;
+    border-style:solid;
+    width: 100%;
+    
+}
+
+.tit{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    color:rgb(0, 102, 255) ;
+    margin-bottom: 30px;
+}
+
+.com{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardd{
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%) ;
+    width: 21,25em;
+    border-radius: 10px;
+    padding: 80px 130px;
+    transition: 1s ease;
+    
+}
+.cardd:hover{
+        transform: scale(1.1);
+        transition: 0.7s ease;
+}
+
+.shkl{
+    font-size: 190px;
+    color: blue;
+    text-align: center;
+}
+
+.what{
+    text-align: center;
+    
+}
+
+.what a{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    transition: 1s ease;
+    
+}
+
+.num{
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+    font-weight: 700;
+}
+
+.klo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.crt{
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%) ;
+    padding: 80px 130px;
+    border-radius: 10px;
+    transition: 1s ease;
+
+}
+
+.sorh a{
+    font-size: 180px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease;
+}
+
+h4{
+    justify-content: center;
+    display: flex;
+    color: rgb(0, 102, 255);
+    font-size: 50px;
+    font-style: italic;
+   
+}
+
+.arrow{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+
+.crt:hover{
+    transform: scale(1.1);
+    transition: 0.9s ease;
+}
+
+.sorh a:hover{
+    color: red;
+    transition: 0.8s ease;
+}
+
+.what a:hover{
+    color: rgba(0, 174, 255, 0.726);
+    transition: 0.4s ease;
+}
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left:10px ;
+    }
+    .title{
+      font-size: 1.8em;  
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h3{
+        font-size: 1.6em;
+
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+
+    }
+        
+    
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+        
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+@media (max-width:300px){
+    body{
+        font-size: 10px ;
+    }
+}
+    
